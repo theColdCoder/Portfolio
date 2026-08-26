@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import Projects from "./Projects";
 import About from "./About";
 import Experience from "./Experience";
@@ -7,21 +7,14 @@ import {
   FaGithub,
   FaLinkedin,
   FaInstagram,
-  FaCodepen,
-  FaGoodreads,
   FaEnvelope,
 } from "react-icons/fa6";
-import { FiArrowUpRight } from "react-icons/fi";
 
 
 // --- STATIC DATA PATTERNS MATCHING BRITTANYCHIANG.COM ---
 // Data structures for experience, projects, and writing can be found
 // in the full implementation linked in.
 
-
-const WRITING_DATA = [
-  /* ... */
-];
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("about");

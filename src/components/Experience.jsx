@@ -1,4 +1,3 @@
-import React from "react";
 import  EXPERIENCE_DATA from "./eData";
 import { FiArrowUpRight } from "react-icons/fi";
 

@@ -1,5 +1,5 @@
 
-
+import motherBenedictImage from "../assets/images/motherBenedictschool.png";
 
 const PROJECTS_DATA = [
   {
