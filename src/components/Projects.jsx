@@ -4,7 +4,7 @@ import PROJECTS_DATA from "./PData";
 function Projects() {
   return (
     <section id="projects" className="scroll-mt-24">
-      <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-[#0f172a]/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-0 lg:w-auto lg:px-0 lg:py-0 lg:opacity-0">
+      <div className="pointer-events-none sticky top-0 z-20 -mx-6 mb-4 w-screen bg-[#0f172a]/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-0 lg:w-auto lg:px-0 lg:py-0 lg:opacity-0">
         <h2 className="text-xs font-bold tracking-widest text-[#e2e8f0] uppercase lg:hidden">
           Projects
         </h2>
@@ -41,12 +41,11 @@ function Projects() {
               <h3 className="font-medium leading-snug text-[#e2e8f0]">
                 <div>
                   <a
-                    className="inline-flex items-baseline font-medium leading-tight text-[#e2e8f0] hover:text-[#5eead4] focus-visible:text-[#5eead4] group/link text-base"
+                    className="relative inline-flex items-baseline font-medium leading-tight text-[#e2e8f0] hover:text-[#5eead4] focus-visible:text-[#5eead4] group/link text-base"
                     href={project.projectUrl}
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span className="absolute -inset-x-4 -inset-y-4 hidden rounded md:block lg:-inset-x-6 lg:-inset-y-6" />
                     <span className="inline-block">
                       {project.title}
                       <FiArrowUpRight

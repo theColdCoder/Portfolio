@@ -194,14 +194,12 @@ export default function Portfolio() {
             <About />
 
             {/* EXPERIENCE SECTION */}
-            <section id="experience">
-              <Experience />
-            </section>
+
+            <Experience />
 
             {/* PROJECTS SECTION */}
-            <section id="projects">
-              <Projects />
-            </section>
+
+            <Projects />
 
             {/* WRITING SECTION */}
             <section id="writing" className="scroll-mt-24">

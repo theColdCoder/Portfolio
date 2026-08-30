@@ -15,7 +15,7 @@ const PROJECTS_DATA = [
       "Tailwind CSS",
     ],
     date: "2023-2024",
-    projectUrl: "https://github.com",
+    projectUrl: "https://motherbenedictschool.com",
     thumbnail: motherBenedictImage,
     thumbnailAlt: "MotherBenedict Secondary School website",
   },
