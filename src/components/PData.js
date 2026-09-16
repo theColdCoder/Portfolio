@@ -65,7 +65,7 @@ const PROJECTS_DATA = [
       "CSS"
     ],
     "date": "2026",
-    "projectUrl": "https://github.com/theColdCoder",
+    "projectUrl": "https://sfgfp8.csb.app/",
     "thumbnailAlt": "Task Management Application"
   }
 ]
