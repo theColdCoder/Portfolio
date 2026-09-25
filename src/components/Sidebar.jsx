@@ -156,7 +156,7 @@ export default function Portfolio() {
               >
                 <FaGithub size={22} />
               </a>
-              <a
+              {/* <a
                 href="https://github.com"
                 target="_blank"
                 rel="noreferrer"
@@ -164,9 +164,9 @@ export default function Portfolio() {
                 aria-label="GitHub"
               >
                 <FaInstagram size={22} />
-              </a>
+              </a> */}
               <a
-                href="https://github.com"
+                href="https://www.linkedin.com/in/jackson-ngwane-619aa8296/"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-[#5eead4] text-[#94a3b8] transition-colors"
@@ -175,7 +175,7 @@ export default function Portfolio() {
                 <FaLinkedin size={22} />
               </a>
               <a
-                href="https://github.com"
+                href="mailto:jaxsonnwane1@gmail.com"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-[#5eead4] text-[#94a3b8] transition-colors"
